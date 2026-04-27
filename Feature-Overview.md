@@ -106,6 +106,21 @@ Each feature has a unique ID assigned, and detailed specifications can be found 
 | 89 | JP-TRANSPORT | Japan Domestic Transport | Japan-Native Design | [Details](./docs/feature-detail/089-JP-TRANSPORT-Japan-Domestic-Transport.md) |
 | 90 | JP-BRP | BRP-Code Product Taxonomy | Japan-Native Design | [Details](./docs/feature-detail/090-JP-BRP-BRP-Code-Product-Taxonomy.md) |
 | 91 | JP-PARTNER | Japan Partner Ecosystem | Japan-Native Design | [Details](./docs/feature-detail/091-JP-PARTNER-Japan-Partner-Ecosystem.md) |
+| 92 | AUTH-LOGIN | User Login | Authentication & Authorization | [Details](./docs/feature-detail/092-AUTH-LOGIN-User-Login.md) |
+| 93 | AUTH-REGISTER | User Registration | Authentication & Authorization | [Details](./docs/feature-detail/093-AUTH-REGISTER-User-Registration.md) |
+| 94 | IAM-COMP-GET | Company Get | Identity & Access Management | [Details](./docs/feature-detail/094-IAM-COMP-GET-Company-Get.md) |
+| 95 | IAM-USER-LIST | User List | Identity & Access Management | [Details](./docs/feature-detail/095-IAM-USER-LIST-User-List.md) |
+| 96 | IAM-USER-ROLE | User Role Management | Identity & Access Management | [Details](./docs/feature-detail/096-IAM-USER-ROLE-User-Role-Management.md) |
+| 97 | AUTH-LOGOUT | User Logout | Authentication & Authorization | [Details](./docs/feature-detail/097-AUTH-LOGOUT-User-Logout.md) |
+| 98 | AUTH-FORGOT-PASSWORD | Forgot Password | Authentication & Authorization | [Details](./docs/feature-detail/098-AUTH-FORGOT-PASSWORD-Forgot-Password.md) |
+| 99 | AUTH-RESET-PASSWORD | Reset Password | Authentication & Authorization | [Details](./docs/feature-detail/099-AUTH-RESET-PASSWORD-Reset-Password.md) |
+| 100 | AUTH-MFA | Multi-Factor Authentication | Authentication & Authorization | [Details](./docs/feature-detail/100-AUTH-MFA-Multi-Factor-Authentication.md) |
+| 101 | IAM-COMP-LIST | Company List | Identity & Access Management | [Details](./docs/feature-detail/101-IAM-COMP-LIST-Company-List.md) |
+| 102 | IAM-COMP-UPDATE | Company Update | Identity & Access Management | [Details](./docs/feature-detail/102-IAM-COMP-UPDATE-Company-Update.md) |
+| 103 | IAM-USER-GET | User Get | Identity & Access Management | [Details](./docs/feature-detail/103-IAM-USER-GET-User-Get.md) |
+| 104 | IAM-USER-UPDATE | User Update | Identity & Access Management | [Details](./docs/feature-detail/104-IAM-USER-UPDATE-User-Update.md) |
+| 105 | IAM-USER-CREATE | User Create | Identity & Access Management | [Details](./docs/feature-detail/105-IAM-USER-CREATE-User-Create.md) |
+| 106 | IAM-USER-DELETE | User Delete | Identity & Access Management | [Details](./docs/feature-detail/106-IAM-USER-DELETE-User-Delete.md) |
 
 ---
 
