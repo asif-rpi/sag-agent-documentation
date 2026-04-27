@@ -1,18 +1,74 @@
-# REPORT-CATEGORY - Category-wise Breakdown
+# REPORT-CATEGORY: Category-wise Breakdown
 
-## Overview
-Detailed emission analysis broken down by GHG Protocol Scope 3 categories.
+## Feature Basic Information
 
-## Category
-Reporting & Dashboard
+| Item | Content |
+|------|---------|
+| Unique ID | REPORT-CATEGORY |
+| Feature Name | Category-wise Breakdown |
+| Category | Dashboard & Visualization |
+| Priority | High |
+| Implementation Phase | Phase 2 |
 
-## Description
-Category-wise breakdown provides granular analysis of emissions across all 15 Scope 3 categories, identifying the largest contributors and opportunities for reduction. The report includes visual charts and trend analysis for each category.
+---
+
+## Purpose
+
+Detailed emission analysis broken down by GHG Protocol Scope 3 categories. Identifies largest contributors and reduction opportunities.
+
+---
+
+## Breakdown Views
+
+| View | Description |
+|------|-------------|
+| By Category | Each of 15 Scope 3 categories |
+| By Supplier | Emissions per supplier |
+| By Product | Emissions per product line |
+| By Region | Emissions per geography |
+| By Transport | Emissions per route |
+
+---
+
+## Top Contributors Analysis
+
+| Metric | Description |
+|--------|-------------|
+| Top 5 Categories | Highest emitting categories |
+| Top 10 Suppliers | Highest emitting suppliers |
+| Contribution % | Share of total emissions |
+| Trend | Direction of change |
+
+---
+
+## Visualization
+
+```
+Total Emissions → By Scope → By Category → 
+By Supplier → By Product → Details
+```
+
+---
+
+## Features
+
+- **Drill-down**: From total to detail
+- **Sorting**: By emissions, %, trend
+- **Filtering**: By date, category, supplier
+- **Export**: Category-specific reports
+
+---
 
 ## Implementation Notes
-Placeholder for implementation details.
+
+- 15 Scope 3 categories covered
+- Visual charts included
+- Reduction opportunities identified
+
+---
 
 ## Related Features
+
 - REPORT-SCOPE (Scope 1/2/3 Reports)
 - REPORT-CHARTS (Charts and Trends)
 - SCENARIO-WHATIF (What-if Simulation)

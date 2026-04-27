@@ -6,14 +6,35 @@
 |------|---------|
 | Unique ID | CALC-MASS |
 | Feature Name | Mass-based Calculation |
-| Endpoint | `/api/calculate/mass` |
-| HTTP Method | POST |
-| Implementation Status | Planned |
+| Category | Core Carbon Calculation Engine |
+| Priority | Critical |
+| Implementation Phase | MVP (Phase 2) |
 
-### Purpose
+---
+
+## Purpose
 
 Calculate carbon emissions using a mass-based approach where emissions are determined by multiplying product quantity by the corresponding emission factor (EF).
-Formula: Emissions = Quantity × EF
+
+**Formula:**
+```
+CO2e = Activity Data × Emission Factor × GWP
+```
+
+- **Activity Data** = Quantitative measure (liters fuel, kWh electricity, km traveled, kg material)
+- **Emission Factor** = Conversion coefficient (kg CO2 per unit)
+- **GWP** = Global Warming Potential (non-CO2 gas ke CO2 equivalent-e convert kore)
+
+---
+
+## Supported Calculation Methods (GHG Protocol)
+
+| Method | Accuracy | Data Required | When Used |
+|--------|----------|---------------|-----------|
+| Supplier-Specific | Highest | Actual supplier emissions | Supplier provides primary data |
+| Hybrid | High | Mix of supplier + secondary | Transitioning to actuals |
+| Average-Data | Medium | Industry-average factors | Supplier data unavailable |
+| Spend-Based | Lowest | Financial spend only | Starting point / quickest |
 
 ---
 
@@ -47,6 +68,13 @@ Formula: Emissions = Quantity × EF
 ```
 
 ---
+
+## Related Features
+
+- CALC-SPEND (Spend-based Calculation)
+- CALC-DUAL (Dual Mode Calculation)
+- CALC-UNIT (Unit Conversion)
+- EF-DEFAULT (Default EF Database)
 
 ## Response Specification
 

@@ -1,26 +1,87 @@
-# AUDIT-HISTORY - Report History
+# AUDIT-HISTORY: Report History
 
-## Overview
-This feature maintains version history of emission reports.
+## Feature Basic Information
 
-## Category
-Audit & Compliance
+| Item | Content |
+|------|---------|
+| Unique ID | AUDIT-HISTORY |
+| Feature Name | Report History |
+| Category | Compliance & Regulatory |
+| Priority | High |
+| Implementation Phase | Phase 2 |
 
-## Description
-- Store previous report versions
-- Track changes over time
-- Compare report versions
-- Archive old reports
+---
+
+## Purpose
+
+Maintain version history of emission reports. Track changes over time and enable comparison.
+
+---
+
+## History Features
+
+| Feature | Description |
+|---------|-------------|
+| Versioning | Keep all report versions |
+| Comparison | Side-by-side diff |
+| Restore | Revert to previous version |
+| Archive | Long-term storage |
+
+---
+
+## Version Information
+
+| Field | Description |
+|-------|-------------|
+| Version ID | Unique identifier |
+| Created Date | Generation date |
+| Created By | User who generated |
+| Report Type | Scope/category |
+| Period | Data period covered |
+| Status | Draft/Final/Archived |
+
+---
+
+## Version Comparison
+
+| Metric | Description |
+|--------|-------------|
+| Total Change | Emissions difference |
+| Scope Change | By scope breakdown |
+| Category Change | By category |
+| Data Points | Records changed |
+
+---
+
+## Retention Policy
+
+| Status | Retention |
+|--------|-----------|
+| Draft | Until published |
+| Final | 7 years |
+| Archived | 10 years |
+
+---
 
 ## API Endpoints
-- GET /api/reports/history
-- GET /api/reports/version/{id}
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| /api/reports/history | GET | List report history |
+| /api/reports/version/:id | GET | Get specific version |
+| /api/reports/compare | POST | Compare versions |
+
+---
 
 ## Implementation Notes
-- Version control system
+
+- Full version control
+- Easy restoration
 - Storage optimization
-- User access to history
+
+---
 
 ## Related Features
+
 - REPORT-TOTAL (Total CO₂ Emission Report)
 - AUDIT-TRAIL (Data Audit Trail)

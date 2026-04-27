@@ -1,18 +1,64 @@
-# PROD-TAXONOMY - Product Taxonomy Mapping
+# PROD-TAXONOMY: Product Taxonomy Mapping
 
-## Overview
-Product taxonomy mapping system for classifying products and linking them to appropriate emission factors.
+## Feature Basic Information
 
-## Category
-Product Intelligence
+| Item | Content |
+|------|---------|
+| Unique ID | PROD-TAXONOMY |
+| Feature Name | Product Taxonomy Mapping |
+| Category | AI Agentic Intelligence |
+| Priority | Critical |
+| Implementation Phase | Phase 2 |
 
-## Description
-Product taxonomy mapping uses the BRP-Code system with 30 million items to automatically classify products and map them to emission categories. The system leverages machine learning to match product descriptions to standardized categories, ensuring accurate emission factor application across diverse product ranges.
+---
+
+## Purpose
+
+SAGBRAIN-er 30M item BRP-Code product taxonomy ke GHG Protocol emission categories-er sathe map korbe. Machine learning model train kora hobe historical data use kore, ar IPCC/DEFRA/MOE database-er emission factors ke BRP-Code hierarchy-te assign kora hobe.
+
+---
+
+## How Mapping Works
+
+```
+Product ordered on DOG → BRP-Code identified (from 30M taxonomy) 
+→ BRP-Code mapped to emission category → Emission Factor DB queried 
+→ Matched factor applied → CO2e calculated
+```
+
+---
+
+## Three-Layer Factor Approach
+
+| Layer | Type | Source |
+|-------|------|--------|
+| Layer 1 (Best) | Supplier-specific | Direct supplier data |
+| Layer 2 (Good) | Process-specific | ecoinvent / IDEA v3 |
+| Layer 3 (Fallback) | Industry-average | IPCC / DEFRA / Japan MOE |
+
+---
+
+## BRP-Code Structure
+
+| Level | Description |
+|-------|-------------|
+| Level 1 | Category (e.g., Chemicals) |
+| Level 2 | Sub-category (e.g., Reagents) |
+| Level 3 | Product Type (e.g., Laboratory Chemicals) |
+| Level 4 | Specific Product |
+
+---
 
 ## Implementation Notes
-Placeholder for implementation details.
+
+- 30 million product items in taxonomy
+- ML-based historical matching
+- Automatic emission category assignment
+
+---
 
 ## Related Features
+
 - PROD-AUTO-CAT (Auto Category Detection)
 - EF-DEFAULT (Default EF Database)
 - BONUS-ML (ML Auto Classification)

@@ -1,18 +1,74 @@
-# REPORT-SCOPE - Scope 1/2/3 Reports
+# REPORT-SCOPE: Scope 1/2/3 Reports
 
-## Overview
-Detailed reporting for Scope 1, 2, and 3 emissions as defined by GHG Protocol.
+## Feature Basic Information
 
-## Category
-Reporting & Dashboard
+| Item | Content |
+|------|---------|
+| Unique ID | REPORT-SCOPE |
+| Feature Name | Scope 1/2/3 Reports |
+| Category | Dashboard & Visualization |
+| Priority | Critical |
+| Implementation Phase | MVP (Phase 1) |
 
-## Description
-Scope 1/2/3 reports provide separate analysis for direct emissions (Scope 1), indirect energy emissions (Scope 2), and indirect supply chain emissions (Scope 3). Each scope includes category breakdowns, trend analysis, and compliance-ready formatting.
+---
+
+## Purpose
+
+Detailed reporting for Scope 1, 2, and 3 emissions as defined by GHG Protocol. Each scope includes category breakdowns and compliance-ready formatting.
+
+---
+
+## Scope Definitions
+
+| Scope | Description | Examples |
+|-------|-------------|----------|
+| Scope 1 | Direct emissions | Company vehicles, on-site fuel |
+| Scope 2 | Energy indirect | Purchased electricity, heat |
+| Scope 3 | Other indirect | Supply chain, transport |
+
+---
+
+## Scope 3 Categories (15 Total)
+
+| Cat | Category | Priority |
+|-----|----------|----------|
+| 1 | Purchased Goods & Services | **Critical** |
+| 2 | Capital Goods | Medium |
+| 3 | Fuel & Energy Related | Medium |
+| 4 | Upstream Transport | **Critical** |
+| 5 | Waste Generated | Low-Medium |
+| 6 | Business Travel | Low |
+| 7 | Employee Commuting | Low |
+| 8 | Upstream Leased Assets | Low |
+| 9 | Downstream Transport | **Critical** |
+| 10 | Processing of Sold Products | Medium |
+| 11 | Use of Sold Products | Low-Medium |
+| 12 | End-of-Life Treatment | Low |
+| 13 | Downstream Leased Assets | Low |
+| 14 | Franchises | N/A |
+| 15 | Investments | Low |
+
+---
+
+## Report Features
+
+- **Separate Analysis**: Each scope independently
+- **Category Breakdown**: Within each scope
+- **Trend Analysis**: Over time
+- **Compliance Format**: Regulatory-ready
+
+---
 
 ## Implementation Notes
-Placeholder for implementation details.
+
+- GHG Protocol compliant
+- Category-level detail
+- Export for audits
+
+---
 
 ## Related Features
+
 - REPORT-TOTAL (Total CO₂ Emission Report)
 - REPORT-CATEGORY (Category-wise Breakdown)
 - AUDIT-COMPLIANCE (Compliance Export)

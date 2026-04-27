@@ -1,26 +1,77 @@
-# PERF-BACKGROUND - Background Job Processing
+# PERF-BACKGROUND: Background Job Processing
 
-## Overview
-This feature processes large CSV files and calculations in the background.
+## Feature Basic Information
 
-## Category
-Performance & Tech Features
+| Item | Content |
+|------|---------|
+| Unique ID | PERF-BACKGROUND |
+| Feature Name | Background Job Processing |
+| Category | Performance & Tech |
+| Priority | High |
+| Implementation Phase | Phase 2 |
 
-## Description
-- Asynchronous processing
-- Handle large files without blocking UI
-- Job queue management
-- Progress tracking
+---
+
+## Purpose
+
+Process large CSV files and calculations in the background. Asynchronous processing without blocking the UI.
+
+---
+
+## Job Types
+
+| Job Type | Description |
+|----------|-------------|
+| Import | CSV/Excel data import |
+| Calculation | Batch emission calculation |
+| Export | Report generation |
+| Sync | External system sync |
+
+---
+
+## Job Queue Features
+
+| Feature | Description |
+|---------|-------------|
+| Queue Management | Priority-based processing |
+| Retry Logic | Automatic retry on failure |
+| Progress Tracking | Real-time status updates |
+| Notifications | Job completion alerts |
+
+---
+
+## Job States
+
+| State | Description |
+|-------|-------------|
+| Queued | Waiting for processing |
+| Running | Currently executing |
+| Completed | Successfully finished |
+| Failed | Error occurred |
+| Retry | Retrying after failure |
+
+---
 
 ## API Endpoints
-- POST /api/jobs/submit
-- GET /api/jobs/status/{id}
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| /api/jobs/submit | POST | Submit new job |
+| /api/jobs/status/:id | GET | Get job status |
+| /api/jobs/cancel/:id | POST | Cancel job |
+| /api/jobs/history | GET | Job history |
+
+---
 
 ## Implementation Notes
-- Use job queues (e.g., Redis, Bull)
-- Background workers
-- Error handling and retries
+
+- Non-blocking UI
+- Error handling with retries
+- Progress monitoring
+
+---
 
 ## Related Features
+
 - INPUT-BULK (Bulk Data Import)
 - PERF-ENGINE (Fast Calculation Engine)

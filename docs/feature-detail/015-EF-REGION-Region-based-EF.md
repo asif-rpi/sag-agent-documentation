@@ -1,18 +1,76 @@
-# EF-REGION - Region-based EF
+# EF-REGION: Region-based EF
 
-## Overview
-Region-specific emission factors accounting for geographical variations in energy mixes and processes.
+## Feature Basic Information
 
-## Category
-Emission Factor Management
+| Item | Content |
+|------|---------|
+| Unique ID | EF-REGION |
+| Feature Name | Region-based EF |
+| Category | Emission Factor Management |
+| Priority | High |
+| Implementation Phase | Phase 2 |
 
-## Description
-Region-based EF provides location-specific emission factors that reflect local energy grids, transportation infrastructure, and industrial processes. The system automatically applies appropriate regional factors based on origin and destination locations, improving calculation accuracy for global supply chains.
+---
+
+## Purpose
+
+Region-specific emission factors that reflect local energy grids, transportation infrastructure, and industrial processes for global supply chains.
+
+---
+
+## Supported Regions
+
+| Region | Grid Factor (kg CO2e/kWh) | Notes |
+|--------|--------------------------|-------|
+| Japan | 0.457 | Tokyo Electric |
+| USA | 0.417 | Average |
+| EU | 0.276 | Average |
+| China | 0.581 | Coal-heavy |
+| India | 0.708 | Coal-heavy |
+| Singapore | 0.408 | City-state |
+
+---
+
+## Transport Regional Factors
+
+| Route Type | Factor Adjustment |
+|------------|-------------------|
+| Domestic (Japan) | Base factors |
+| International (Asia) | +10-20% |
+| Trans-Pacific | +15-25% |
+| Intra-EU | Base factors |
+
+---
+
+## Auto-Detection Logic
+
+```
+Origin Location → Determine Region → Apply Grid Factor
+→ Check Transport Route → Apply Transport Factor
+→ Calculate with Regional Adjustments
+```
+
+---
+
+## Features
+
+- **Location-based**: Auto-apply based on addresses
+- **Route-aware**: Consider transport corridors
+- **Grid updates**: Reflect latest energy mix
+- **Custom regions**: Add new regions as needed
+
+---
 
 ## Implementation Notes
-Placeholder for implementation details.
+
+- Improves accuracy for global supply chains
+- Reflects local energy grid variations
+- Supports customs compliance
+
+---
 
 ## Related Features
+
 - EF-DEFAULT (Default EF Database)
 - EF-CUSTOM (Custom EF Management)
 - EF-VERSION (EF Version Control)

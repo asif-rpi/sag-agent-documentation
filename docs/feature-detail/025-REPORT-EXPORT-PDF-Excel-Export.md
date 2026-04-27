@@ -1,26 +1,89 @@
-# REPORT-EXPORT - PDF/Excel Export
+# REPORT-EXPORT: PDF/Excel Export
 
-## Overview
-This feature allows exporting emission reports in PDF or Excel format for sharing and compliance purposes.
+## Feature Basic Information
 
-## Category
-Reporting & Dashboard
+| Item | Content |
+|------|---------|
+| Unique ID | REPORT-EXPORT |
+| Feature Name | PDF/Excel Export |
+| Category | Dashboard & Visualization |
+| Priority | High |
+| Implementation Phase | Phase 2 |
 
-## Description
-- Export total emission reports
-- Support for PDF and Excel formats
-- Include charts and data tables
-- Customizable report templates
+---
+
+## Purpose
+
+Export emission reports in PDF or Excel format for sharing, presentations, and compliance purposes.
+
+---
+
+## Export Formats
+
+| Format | Use Case |
+|--------|----------|
+| PDF | Formal reports, submissions |
+| Excel | Further analysis, sharing |
+| CSV | Data processing, imports |
+| JSON | API integration |
+
+---
+
+## Export Options
+
+| Option | Description |
+|--------|-------------|
+| Full Report | Complete emission report |
+| Summary | Executive summary only |
+| Scope-specific | Scope 1, 2, or 3 only |
+| Category-specific | Single category |
+| Custom Date | Date range selection |
+
+---
+
+## PDF Features
+
+| Feature | Description |
+|---------|-------------|
+| Branding | Company logo, colors |
+| Charts | Embedded visualizations |
+| Tables | Formatted data tables |
+| Headers | Report metadata |
+| Footers | Page numbers, date |
+
+---
+
+## Excel Features
+
+| Feature | Description |
+|---------|-------------|
+| Multiple Sheets | Each scope/category |
+| Formulas | Calculated fields |
+| Charts | Embedded charts |
+| Formatting | Professional styling |
+| Raw Data | Underlying data tab |
+
+---
 
 ## API Endpoints
-- GET /api/reports/export?format=pdf
-- GET /api/reports/export?format=excel
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| /api/reports/export | POST | Generate export |
+| /api/reports/export/pdf | GET | PDF format |
+| /api/reports/export/excel | GET | Excel format |
+
+---
 
 ## Implementation Notes
-- Use libraries like pdfkit or puppeteer for PDF
-- Excel export with xlsx or similar
-- Ensure data accuracy in exports
+
+- Professional report templates
+- Automated generation
+- Scheduled exports
+
+---
 
 ## Related Features
+
 - REPORT-TOTAL (Total CO₂ Emission Report)
 - AUDIT-COMPLIANCE (Compliance Export)

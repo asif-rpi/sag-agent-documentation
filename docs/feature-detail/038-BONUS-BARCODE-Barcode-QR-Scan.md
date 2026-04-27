@@ -1,22 +1,74 @@
-# BONUS-BARCODE - Barcode/QR Scan
+# BONUS-BARCODE: Barcode/QR Scan
 
-## Overview
-This future feature allows scanning barcodes or QR codes to detect items.
+## Feature Basic Information
 
-## Category
-Bonus Features
+| Item | Content |
+|------|---------|
+| Unique ID | BONUS-BARCODE |
+| Feature Name | Barcode/QR Scan |
+| Category | Future / Advanced Features |
+| Priority | Low (Post-MVP) |
+| Implementation Phase | Phase 4+ |
 
-## Description
-- Mobile app integration
-- Camera-based scanning
-- Product database lookup
-- Automatic data entry
+---
+
+## Purpose
+
+Mobile app integration for scanning barcodes or QR codes to quickly identify products and auto-fill data.
+
+---
+
+## Scan Capabilities
+
+| Type | Description |
+|------|-------------|
+| Barcode (1D) | UPC, EAN, Code128 |
+| QR Code (2D) | Product info, URLs |
+| Data Matrix | Small item labeling |
+| PDF417 | Transport labeling |
+
+---
+
+## Workflow
+
+```
+Scan → Decode → Product Lookup → 
+Auto-fill Form → Confirm → Submit
+```
+
+---
+
+## Integration Features
+
+| Feature | Description |
+|---------|-------------|
+| Camera Access | Mobile camera API |
+| Barcode Library | ZXing decoding |
+| Product Database | Link to BRP-Code |
+| Auto-fill | Pre-populate forms |
+
+---
+
+## Mobile Features
+
+| Feature | Description |
+|---------|-------------|
+| Offline Mode | Scan without internet |
+| Batch Scan | Multiple items |
+| Flashlight | Low-light scanning |
+| History | Recent scans |
+
+---
 
 ## Implementation Notes
-- Use camera APIs
-- Barcode libraries (e.g., ZXing)
-- Product database integration
+
+- Cross-platform mobile app
+- Fast product lookup
+- Reduce manual entry
+
+---
 
 ## Related Features
+
 - INPUT-MANUAL (Manual Form Entry)
 - PROD-TAXONOMY (Product Taxonomy Mapping)
