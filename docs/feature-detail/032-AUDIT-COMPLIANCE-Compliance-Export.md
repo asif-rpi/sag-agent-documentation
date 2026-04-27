@@ -1,20 +1,21 @@
 # AUDIT-COMPLIANCE: Compliance Export
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUDIT-COMPLIANCE |
-| Feature Name | Compliance Export |
-| Category | Compliance & Regulatory |
-| Priority | Critical |
-| Implementation Phase | Phase 3 |
+| API Name | Compliance Export |
+| Type | GET |
+| Endpoint | /api/reports/compliance |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## summary
 
-Export data in compliance-ready formats. Supports GHG Protocol, EU CBAM, Japan SSBJ, and other regulatory frameworks.
+Export data in compliance-ready formats. Supports GHG Protocol, EU CBAM, Japan SSBJ.
 
 ---
 

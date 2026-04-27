@@ -1,20 +1,21 @@
 # REPORT-SCOPE: Scope 1/2/3 Reports
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | REPORT-SCOPE |
-| Feature Name | Scope 1/2/3 Reports |
-| Category | Dashboard & Visualization |
-| Priority | Critical |
-| Implementation Phase | MVP (Phase 1) |
+| API Name | Scope 1/2/3 Reports |
+| Type | GET |
+| Endpoint | /api/reports/scope |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Detailed reporting for Scope 1, 2, and 3 emissions as defined by GHG Protocol. Each scope includes category breakdowns and compliance-ready formatting.
+Detailed reporting for Scope 1, 2, and 3 emissions. GHG Protocol compliant emission reporting.
 
 ---
 

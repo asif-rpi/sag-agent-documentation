@@ -1,20 +1,21 @@
 # PROD-TAXONOMY: Product Taxonomy Mapping
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | PROD-TAXONOMY |
-| Feature Name | Product Taxonomy Mapping |
-| Category | AI Agentic Intelligence |
-| Priority | Critical |
-| Implementation Phase | Phase 2 |
+| API Name | Product Taxonomy Mapping |
+| Type | POST |
+| Endpoint | /api/data/taxonomy |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-SAGBRAIN-er 30M item BRP-Code product taxonomy ke GHG Protocol emission categories-er sathe map korbe. Machine learning model train kora hobe historical data use kore, ar IPCC/DEFRA/MOE database-er emission factors ke BRP-Code hierarchy-te assign kora hobe.
+Map products to GHG Protocol categories. Automatically detect and assign emission categories to products.
 
 ---
 

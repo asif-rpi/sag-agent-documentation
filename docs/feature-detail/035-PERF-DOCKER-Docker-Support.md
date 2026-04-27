@@ -1,20 +1,21 @@
 # PERF-DOCKER: Docker Support
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | PERF-DOCKER |
-| Feature Name | Docker Support |
+| API Name | Docker Support |
+| Type | POST |
+| Endpoint | /api/deploy/docker |
 | Category | Performance & Tech |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Docker containerization for easy deployment and scaling. Ensures environment consistency across development and production.
+Docker containerization for deployment. Ensures environment consistency across dev and prod.
 
 ---
 

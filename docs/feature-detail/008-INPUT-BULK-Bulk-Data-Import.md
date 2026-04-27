@@ -1,20 +1,21 @@
 # INPUT-BULK: Bulk Data Import
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | INPUT-BULK |
-| Feature Name | Bulk Data Import |
-| Category | Data Ingestion & Integration |
-| Priority | Critical |
-| Implementation Phase | Phase 2 |
+| API Name | Bulk Data Import |
+| Type | POST |
+| Endpoint | /api/data/bulk |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Bulk data import handles large-scale data ingestion from various sources including databases, APIs, and file uploads. Processes millions of records efficiently.
+Import large-scale data from various sources. Bulk data import handles large-scale data ingestion.
 
 ---
 

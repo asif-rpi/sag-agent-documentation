@@ -1,20 +1,21 @@
 # EF-REGION: Region-based EF
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | EF-REGION |
-| Feature Name | Region-based EF |
-| Category | Emission Factor Management |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Region-based EF |
+| Type | GET |
+| Endpoint | /api/emissionfactors/region |
+| Category | Emission Factor (EF) Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Region-specific emission factors that reflect local energy grids, transportation infrastructure, and industrial processes for global supply chains.
+Get region-specific emission factors. Region-specific emission factors for local energy grids.
 
 ---
 

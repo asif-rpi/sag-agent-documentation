@@ -1,20 +1,21 @@
-# INPUT-MANUAL: Manual Form Entry
+# INPUT-MANUAL: Manual Entry
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | INPUT-MANUAL |
-| Feature Name | Manual Form Entry |
-| Category | Data Ingestion & Integration |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Unique ID | INP-MANUAL |
+| API Name | Manual Entry |
+| Type | POST |
+| Endpoint | /api/data/entry |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Manual data entry forms for inputting carbon emission data when automated sources are unavailable. Supports companies in early stages of carbon accounting.
+Submit a single transaction/emission record. Manual data entry forms for inputting carbon emission data.
 
 ---
 

@@ -1,20 +1,21 @@
-# REPORT-CATEGORY: Category-wise Breakdown
+# REPORT-CATEGORY: Category Breakdown
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | REPORT-CATEGORY |
-| Feature Name | Category-wise Breakdown |
-| Category | Dashboard & Visualization |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Unique ID | REP-CATEGORY |
+| API Name | Category Breakdown |
+| Type | GET |
+| Endpoint | /api/reports/categories |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Detailed emission analysis broken down by GHG Protocol Scope 3 categories. Identifies largest contributors and reduction opportunities.
+Emissions segmented by product/category. Detailed emission analysis broken down by GHG Protocol categories.
 
 ---
 

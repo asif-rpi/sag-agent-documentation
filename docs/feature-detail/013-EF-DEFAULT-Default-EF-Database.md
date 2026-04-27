@@ -1,20 +1,21 @@
-# EF-DEFAULT: Default EF Database
+# EF-DEFAULT: Get EF Database
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | EF-DEFAULT |
-| Feature Name | Default EF Database |
-| Category | Emission Factor Management |
-| Priority | Critical |
-| Implementation Phase | MVP (Phase 2) |
+| Unique ID | EFM-LIST |
+| API Name | Get EF Database |
+| Type | GET |
+| Endpoint | /api/emissionfactors |
+| Category | Emission Factor (EF) Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Default emission factor database providing standardized factors from authoritative sources for accurate carbon calculations.
+Retrieve default (IPCC/DEFRA) and custom EFs. Default emission factor database providing standardized factors.
 
 ---
 

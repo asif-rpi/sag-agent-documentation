@@ -1,20 +1,21 @@
-# IAM-USER-ROLE: User Role Management
+# IAM-USER-ROLE: Update User Role
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-USER-ROLE |
-| Feature Name | User Role Management |
-| Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| API Name | Update User Role |
+| Type | PATCH |
+| Endpoint | /api/users/:id/role |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Assign and manage user roles within a company.
+Update RBAC permissions (Admin/User). Assign and manage user roles within a company.
 
 ---
 

@@ -1,20 +1,21 @@
 # CALC-UNIT: Unit Conversion
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | CALC-UNIT |
-| Feature Name | Unit Conversion |
-| Category | Core Carbon Calculation Engine |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Unit Conversion |
+| Type | POST |
+| Endpoint | /api/convert |
+| Category | Calculation & Simulation |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Unit Conversion feature handles automatic conversion between different units of measurement for quantities and emission factors. This ensures consistent calculations regardless of the input unit system.
+Convert between different units automatically. Handle various units for mass, distance, volume.
 
 ---
 

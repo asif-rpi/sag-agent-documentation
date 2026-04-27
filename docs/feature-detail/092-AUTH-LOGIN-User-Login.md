@@ -1,20 +1,21 @@
 # AUTH-LOGIN: User Login
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUTH-LOGIN |
-| Feature Name | User Login |
-| Category | Authentication & Authorization |
-| Priority | Critical |
-| Implementation Phase | Phase 1 |
+| API Name | User Login |
+| Type | POST |
+| Endpoint | /api/auth/login |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Secure user authentication with email/password and optional MFA.
+Secure user authentication with email/password and optional MFA. Authenticate user and issue JWT token.
 
 ---
 
@@ -29,15 +30,22 @@ Secure user authentication with email/password and optional MFA.
 
 ---
 
-## Login Flow
+## Request Body
 
-| Step | Description |
-|------|-------------|
-| 1 | User enters email/password |
-| 2 | Validate credentials |
-| 3 | Generate JWT token |
-| 4 | Return user session |
-| 5 | Store refresh token |
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| email | string | Yes | User email address |
+| password | string | Yes | User password |
+
+---
+
+## Response
+
+| Field | Type | Description |
+|-------|------|-------------|
+| accessToken | string | JWT access token |
+| refreshToken | string | JWT refresh token |
+| user | object | User profile |
 
 ---
 
@@ -48,6 +56,7 @@ Secure user authentication with email/password and optional MFA.
 | Password Hash | bcrypt hashing |
 | Rate Limiting | Prevent brute force |
 | Session Timeout | Auto-logout |
+| Device Tracking | Track login devices |
 | Device Tracking | Track login devices |
 
 ---

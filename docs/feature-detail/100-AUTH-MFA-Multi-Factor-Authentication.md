@@ -1,20 +1,21 @@
 # AUTH-MFA: Multi-Factor Authentication
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUTH-MFA |
-| Feature Name | Multi-Factor Authentication |
-| Category | Authentication & Authorization |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Multi-Factor Authentication |
+| Type | POST |
+| Endpoint | /api/auth/mfa/setup |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Enhanced security with two-factor authentication.
+Enable and verify MFA for enhanced security. Enhanced security with two-factor authentication.
 
 ---
 

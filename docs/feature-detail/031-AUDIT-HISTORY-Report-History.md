@@ -1,18 +1,19 @@
 # AUDIT-HISTORY: Report History
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUDIT-HISTORY |
-| Feature Name | Report History |
-| Category | Compliance & Regulatory |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Report History |
+| Type | GET |
+| Endpoint | /api/reports/history |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
 Maintain version history of emission reports. Track changes over time and enable comparison.
 

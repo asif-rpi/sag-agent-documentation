@@ -1,20 +1,21 @@
-# EF-VERSION: EF Version Control
+# EF-VERSION: Update Custom EF
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | EF-VERSION |
-| Feature Name | EF Version Control |
-| Category | Emission Factor Management |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Unique ID | EFM-UPDATE |
+| API Name | Update Custom EF |
+| Type | PATCH |
+| Endpoint | /api/emissionfactors/:id |
+| Category | Emission Factor (EF) Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Version control maintains historical versions of emission factors, allowing organizations to track changes and ensure consistent calculations over time.
+Update existing custom EF details. Version control maintains historical versions of emission factors.
 
 ---
 

@@ -1,20 +1,21 @@
-# REPORT-EXPORT: PDF/Excel Export
+# REPORT-EXPORT: Export Report
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | REPORT-EXPORT |
-| Feature Name | PDF/Excel Export |
-| Category | Dashboard & Visualization |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Unique ID | REP-EXPORT |
+| API Name | Export Report |
+| Type | GET |
+| Endpoint | /api/reports/export |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Export emission reports in PDF or Excel format for sharing, presentations, and compliance purposes.
+Export dashboards as PDF or Excel (GHG format). Export emission reports in PDF or Excel format.
 
 ---
 

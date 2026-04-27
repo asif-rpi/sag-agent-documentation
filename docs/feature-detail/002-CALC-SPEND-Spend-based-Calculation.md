@@ -1,23 +1,21 @@
 # CALC-SPEND: Spend-based Calculation
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | CALC-SPEND |
-| Feature Name | Spend-based Calculation |
-| Category | Core Carbon Calculation Engine |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Spend-based Calculation |
+| Type | POST |
+| Endpoint | /api/calculate |
+| Category | Calculation & Simulation |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Spend-based calculation provides a quick estimation approach for carbon emissions by using purchase values and economy-wide emission factors. This method is particularly useful for initial assessments or when detailed activity data is not yet available.
-
-**Formula:**
-```
+Calculate CO2 emissions based on spend data. Alternative calculation using monetary value.
 CO2 = Purchase Value (¥) × EEIO Emission Factor (kg CO2e/¥)
 ```
 

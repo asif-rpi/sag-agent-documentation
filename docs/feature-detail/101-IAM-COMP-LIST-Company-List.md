@@ -1,20 +1,21 @@
 # IAM-COMP-LIST: Company List
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-COMP-LIST |
-| Feature Name | Company List |
+| API Name | Company List |
+| Type | GET |
+| Endpoint | /api/admin/companies |
 | Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-List all companies (for super admin).
+List all companies (for super admin). Get list of all companies in the system.
 
 ---
 

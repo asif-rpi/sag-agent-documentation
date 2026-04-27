@@ -1,20 +1,21 @@
 # AUTH-FORGOT-PASSWORD: Forgot Password
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUTH-FORGOT-PASSWORD |
-| Feature Name | Forgot Password |
-| Category | Authentication & Authorization |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| API Name | Forgot Password |
+| Type | POST |
+| Endpoint | /api/auth/forgot-password |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Password reset request via email.
+Request password reset via email. Password reset request via email.
 
 ---
 

@@ -1,20 +1,21 @@
 # DATA-MISSING: Missing Data Handling
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | DATA-MISSING |
-| Feature Name | Missing Data Handling |
-| Category | Audit & Data Quality |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Missing Data Handling |
+| Type | POST |
+| Endpoint | /api/data/impute |
+| Category | Data Processing Engine |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Intelligent handling of missing data points using statistical methods and machine learning to estimate values based on historical patterns.
+Handle missing data with estimation. Intelligent handling of missing data points using statistical methods.
 
 ---
 

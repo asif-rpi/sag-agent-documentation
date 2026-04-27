@@ -1,20 +1,21 @@
 # IAM-USER-GET: User Get
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-USER-GET |
-| Feature Name | User Get |
+| API Name | User Get |
+| Type | GET |
+| Endpoint | /api/users/:id |
 | Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Retrieve individual user details.
+Retrieve individual user details. Get specific user by ID.
 
 ---
 

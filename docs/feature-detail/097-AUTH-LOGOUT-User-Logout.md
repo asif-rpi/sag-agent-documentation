@@ -1,20 +1,21 @@
 # AUTH-LOGOUT: User Logout
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUTH-LOGOUT |
-| Feature Name | User Logout |
-| Category | Authentication & Authorization |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| API Name | User Logout |
+| Type | POST |
+| Endpoint | /api/auth/logout |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Secure user logout with token revocation.
+Logout user and invalidate JWT token. Secure user logout with token revocation.
 
 ---
 

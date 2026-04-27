@@ -1,20 +1,21 @@
 # PERF-BACKGROUND: Background Job Processing
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | PERF-BACKGROUND |
-| Feature Name | Background Job Processing |
+| API Name | Background Job Processing |
+| Type | POST |
+| Endpoint | /api/jobs |
 | Category | Performance & Tech |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Process large CSV files and calculations in the background. Asynchronous processing without blocking the UI.
+Process large calculations in background. Asynchronous processing without blocking the UI.
 
 ---
 

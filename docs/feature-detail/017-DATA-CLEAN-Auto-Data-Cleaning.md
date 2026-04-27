@@ -1,20 +1,21 @@
 # DATA-CLEAN: Auto Data Cleaning
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | DATA-CLEAN |
-| Feature Name | Auto Data Cleaning |
-| Category | Audit & Data Quality |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Auto Data Cleaning |
+| Type | POST |
+| Endpoint | /api/data/clean |
+| Category | Data Processing Engine |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Automated data cleaning and preprocessing system for carbon emission datasets. Identifies and corrects common data quality issues.
+Automated data cleaning and preprocessing. Identify and correct common data quality issues.
 
 ---
 

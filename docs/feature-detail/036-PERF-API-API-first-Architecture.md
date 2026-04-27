@@ -1,20 +1,21 @@
 # PERF-API: API-first Architecture
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | PERF-API |
-| Feature Name | API-first Architecture |
+| API Name | API-first Architecture |
+| Type | GET |
+| Endpoint | /api |
 | Category | Performance & Tech |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-API-first design approach for modular architecture. Enables third-party integrations and system interoperability.
+API-first design for modular architecture. Enables third-party integrations and system interoperability.
 
 ---
 

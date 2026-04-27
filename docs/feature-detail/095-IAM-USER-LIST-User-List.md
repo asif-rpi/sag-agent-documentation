@@ -1,20 +1,21 @@
 # IAM-USER-LIST: User List
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-USER-LIST |
-| Feature Name | User List |
-| Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| API Name | User List |
+| Type | GET |
+| Endpoint | /api/users |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-List and manage users within a company.
+Get list of users in the company. List and manage users within a company.
 
 ---
 

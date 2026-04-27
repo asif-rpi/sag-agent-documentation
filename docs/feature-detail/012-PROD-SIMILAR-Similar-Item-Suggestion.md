@@ -1,20 +1,21 @@
 # PROD-SIMILAR: Similar Item Suggestion
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | PROD-SIMILAR |
-| Feature Name | Similar Item Suggestion |
-| Category | AI Agentic Intelligence |
-| Priority | High |
-| Implementation Phase | Phase 3 |
+| API Name | Similar Item Suggestion |
+| Type | POST |
+| Endpoint | /api/data/similar |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-AI-powered similar item suggestion system for finding comparable products in the database. Helps in benchmarking carbon performance and ensuring consistent categorization.
+Find comparable products in the database. AI-powered similar item suggestion system.
 
 ---
 

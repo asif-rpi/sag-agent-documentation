@@ -1,20 +1,21 @@
-# INPUT-CSV: CSV Upload
+# INPUT-CSV: Upload CSV/Excel
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | INPUT-CSV |
-| Feature Name | CSV Upload |
-| Category | Data Ingestion & Integration |
-| Priority | Critical |
-| Implementation Phase | MVP (Phase 1) |
+| Unique ID | INP-UPLOAD |
+| API Name | Upload CSV/Excel |
+| Type | POST |
+| Endpoint | /api/data/upload |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-CSV file upload functionality for bulk data import and processing of carbon emission data. This is the primary data input method for the SAGGreen Agent system.
+Upload spreadsheet for bulk emission data. CSV file upload functionality for bulk data import.
 
 ---
 

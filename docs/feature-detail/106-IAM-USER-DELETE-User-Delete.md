@@ -1,20 +1,21 @@
 # IAM-USER-DELETE: User Delete
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-USER-DELETE |
-| Feature Name | User Delete |
+| API Name | User Delete |
+| Type | DELETE |
+| Endpoint | /api/users/:id |
 | Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Delete or deactivate user accounts.
+Delete or deactivate user accounts. Remove user from the system.
 
 ---
 

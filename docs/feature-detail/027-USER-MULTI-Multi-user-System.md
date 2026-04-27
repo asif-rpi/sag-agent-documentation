@@ -1,20 +1,21 @@
 # USER-MULTI: Multi-user System
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | USER-MULTI |
-| Feature Name | Multi-user System |
-| Category | User Management & Security |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Multi-user System |
+| Type | GET |
+| Endpoint | /api/users |
+| Category | User & Company Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Support multiple users within the system for collaborative emission tracking. Enables team-based carbon management.
+Support multiple users within the system. Enable team-based carbon management.
 
 ---
 

@@ -1,20 +1,21 @@
 # IAM-USER-CREATE: User Create
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-USER-CREATE |
-| Feature Name | User Create |
+| API Name | User Create |
+| Type | POST |
+| Endpoint | /api/users |
 | Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Create new users within a company.
+Create new users within a company. Add new user to the system.
 
 ---
 

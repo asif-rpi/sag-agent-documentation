@@ -1,20 +1,21 @@
-# SCENARIO-WHATIF: What-if Simulation
+# SCENARIO-WHATIF: Scenario Simulation
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | SCENARIO-WHATIF |
-| Feature Name | What-if Simulation |
-| Category | Reporting & Analytics |
-| Priority | High |
-| Implementation Phase | Phase 3 |
+| Unique ID | SIM-WHATIF |
+| API Name | Scenario Simulation |
+| Type | POST |
+| Endpoint | /api/simulate |
+| Category | Calculation & Simulation |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Scenario analysis capabilities to simulate emission changes based on hypothetical changes. Helps in strategic planning for emission reduction.
+Run "what-if" analysis on provided parameters. Scenario analysis capabilities to simulate emission changes.
 
 ---
 

@@ -1,20 +1,21 @@
 # DATA-DUPLICATE: Duplicate Detection
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | DATA-DUPLICATE |
-| Feature Name | Duplicate Detection |
-| Category | Audit & Data Quality |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Duplicate Detection |
+| Type | POST |
+| Endpoint | /api/data/duplicates |
+| Category | Data Processing Engine |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Duplicate data detection and removal system for maintaining data integrity and preventing double-counting of emissions.
+Detect and remove duplicate records. Duplicate data detection and removal system.
 
 ---
 

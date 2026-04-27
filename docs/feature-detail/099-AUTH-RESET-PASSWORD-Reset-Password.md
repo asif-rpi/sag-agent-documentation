@@ -1,20 +1,21 @@
 # AUTH-RESET-PASSWORD: Reset Password
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUTH-RESET-PASSWORD |
-| Feature Name | Reset Password |
-| Category | Authentication & Authorization |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| API Name | Reset Password |
+| Type | POST |
+| Endpoint | /api/auth/reset-password |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Complete password reset with new password.
+Complete password reset with new password. Reset user password with token validation.
 
 ---
 

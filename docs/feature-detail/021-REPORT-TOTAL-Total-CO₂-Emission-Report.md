@@ -1,20 +1,21 @@
 # REPORT-TOTAL: Total CO₂ Emission Report
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | REPORT-TOTAL |
-| Feature Name | Total CO₂ Emission Report |
-| Category | Dashboard & Visualization |
-| Priority | Critical |
-| Implementation Phase | MVP (Phase 1) |
+| API Name | Total CO₂ Emission Report |
+| Type | GET |
+| Endpoint | /api/reports/total |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Comprehensive total carbon emission reporting across all scopes and categories. Provides aggregated carbon footprint data for decision-making.
+Get total CO2, Scope 1/2/3 breakdown. Comprehensive total carbon emission reporting across all scopes.
 
 ---
 

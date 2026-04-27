@@ -1,20 +1,21 @@
 # AUTH-REGISTER: User Registration
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | AUTH-REGISTER |
-| Feature Name | User Registration |
-| Category | Authentication & Authorization |
-| Priority | Critical |
-| Implementation Phase | Phase 1 |
+| API Name | User Registration |
+| Type | POST |
+| Endpoint | /api/auth/register |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-New user signup with email verification and company creation.
+Register new user and workspace. Create new user account with email verification.
 
 ---
 

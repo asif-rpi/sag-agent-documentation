@@ -1,20 +1,21 @@
-# PROD-AUTO-CAT: Auto Category Detection
+# PROD-AUTO-CAT: Auto Categorize
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | PROD-AUTO-CAT |
-| Feature Name | Auto Category Detection |
-| Category | AI Agentic Intelligence |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Unique ID | INTEL-AUTO |
+| API Name | Auto Categorize |
+| Type | POST |
+| Endpoint | /api/data/categorize |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Automatically detect and assign GHG Protocol emission categories to products using AI and machine learning algorithms. Reduces manual categorization efforts.
+AI-based auto categorization of items. Automatically detect and assign GHG Protocol emission categories.
 
 ---
 

@@ -1,20 +1,21 @@
-# IAM-COMP-GET: Company Get
+# IAM-COMP-GET: Get Company Profile
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-COMP-GET |
-| Feature Name | Company Get |
-| Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| API Name | Get Company Profile |
+| Type | GET |
+| Endpoint | /api/company/profile |
+| Category | Authentication & User Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Retrieve company details and settings.
+Retrieve company settings and details.
 
 ---
 

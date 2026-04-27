@@ -1,20 +1,21 @@
-# AUDIT-TRAIL: Data Audit Trail
+# AUDIT-TRAIL: Audit Trail Logs
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | AUDIT-TRAIL |
-| Feature Name | Data Audit Trail |
-| Category | Compliance & Regulatory |
-| Priority | Critical |
-| Implementation Phase | Phase 2 |
+| Unique ID | AUDIT-LIST |
+| API Name | Audit Trail Logs |
+| Type | GET |
+| Endpoint | /api/audit/logs |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Track all data changes for audit and compliance purposes. Maintains immutable log of all modifications.
+Track who added/modified which data. Track all data changes for audit and compliance purposes.
 
 ---
 

@@ -1,20 +1,21 @@
 # IAM-USER-UPDATE: User Update
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-USER-UPDATE |
-| Feature Name | User Update |
+| API Name | User Update |
+| Type | PUT |
+| Endpoint | /api/users/:id |
 | Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Update user profile and settings.
+Update user profile and settings. Modify user information.
 
 ---
 

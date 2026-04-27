@@ -1,20 +1,21 @@
-# EF-CUSTOM: Custom EF Management
+# EF-CUSTOM: Add Custom EF
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | EF-CUSTOM |
-| Feature Name | Custom EF Management |
-| Category | Emission Factor Management |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Unique ID | EFM-CREATE |
+| API Name | Add Custom EF |
+| Type | POST |
+| Endpoint | /api/emissionfactors |
+| Category | Emission Factor (EF) Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Custom emission factor management allows organizations to upload and manage their own emission factors, including supplier-specific data.
+Add a new custom emission factor. Custom emission factor management allows organizations to upload their own factors.
 
 ---
 

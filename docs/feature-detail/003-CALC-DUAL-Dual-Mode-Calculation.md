@@ -1,20 +1,21 @@
 # CALC-DUAL: Dual Mode Calculation
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | CALC-DUAL |
-| Feature Name | Dual Mode Calculation |
-| Category | Core Carbon Calculation Engine |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Dual Mode Calculation |
+| Type | POST |
+| Endpoint | /api/calculate |
+| Category | Calculation & Simulation |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Dual Mode Calculation allows the system to automatically switch between mass-based and spend-based calculation methods based on data availability. This provides flexibility and ensures carbon calculations can proceed even with incomplete data.
+Support both mass-based and spend-based calculation. Auto-switch between methods based on data availability.
 
 ---
 

@@ -1,20 +1,21 @@
 # IAM-COMP-UPDATE: Company Update
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | IAM-COMP-UPDATE |
-| Feature Name | Company Update |
+| API Name | Company Update |
+| Type | PUT |
+| Endpoint | /api/company/:id |
 | Category | Identity & Access Management |
-| Priority | High |
-| Implementation Phase | Phase 1 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Update company details and settings.
+Update company details and settings. Modify company information.
 
 ---
 

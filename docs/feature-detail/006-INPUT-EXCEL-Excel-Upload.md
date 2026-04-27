@@ -1,20 +1,21 @@
 # INPUT-EXCEL: Excel Upload
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | INPUT-EXCEL |
-| Feature Name | Excel Upload |
-| Category | Data Ingestion & Integration |
-| Priority | Critical |
-| Implementation Phase | MVP (Phase 1) |
+| API Name | Excel Upload |
+| Type | POST |
+| Endpoint | /api/data/upload |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Excel file upload capability for importing structured data from Microsoft Excel spreadsheets. Supports complex Excel structures including multiple worksheets.
+Upload Excel spreadsheet for bulk emission data. Excel file upload capability for importing structured data.
 
 ---
 

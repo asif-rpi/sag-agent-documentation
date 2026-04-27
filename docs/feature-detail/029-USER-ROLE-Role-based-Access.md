@@ -1,20 +1,21 @@
 # USER-ROLE: Role-based Access
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | USER-ROLE |
-| Feature Name | Role-based Access |
-| Category | User Management & Security |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Role-based Access |
+| Type | GET |
+| Endpoint | /api/roles |
+| Category | User & Company Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Implement role-based access control (RBAC) for different user types. Secure access to features and data.
+Implement role-based access control (RBAC). Secure access to features and data.
 
 ---
 

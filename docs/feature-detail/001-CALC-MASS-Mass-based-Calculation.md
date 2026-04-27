@@ -1,23 +1,21 @@
 # CALC-MASS: Mass-based Calculation
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | CALC-MASS |
-| Feature Name | Mass-based Calculation |
-| Category | Core Carbon Calculation Engine |
-| Priority | Critical |
-| Implementation Phase | MVP (Phase 2) |
+| API Name | Mass-based Calculation |
+| Type | POST |
+| Endpoint | /api/calculate |
+| Category | Calculation & Simulation |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Calculate carbon emissions using a mass-based approach where emissions are determined by multiplying product quantity by the corresponding emission factor (EF).
-
-**Formula:**
-```
+Calculate CO2 emissions based on mass/quantity. Process records and return CO2e (Mass/Spend auto).
 CO2e = Activity Data × Emission Factor × GWP
 ```
 

@@ -1,20 +1,21 @@
-# REPORT-CHARTS: Charts and Trends
+# REPORT-CHARTS: Emission Trends
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
-| Unique ID | REPORT-CHARTS |
-| Feature Name | Charts and Trends |
-| Category | Dashboard & Visualization |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| Unique ID | REP-TREND |
+| API Name | Emission Trends |
+| Type | GET |
+| Endpoint | /api/reports/trends |
+| Category | Reporting, Dashboard & Audit |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Interactive charts and trend visualization for carbon emission data analysis. Supports drill-down and customizable dashboards.
+Get monthly/yearly trend data for charts. Interactive charts and trend visualization for carbon emission data.
 
 ---
 

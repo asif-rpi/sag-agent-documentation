@@ -1,20 +1,21 @@
 # INPUT-API: API Integration
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | INPUT-API |
-| Feature Name | API Integration |
-| Category | Data Ingestion & Integration |
-| Priority | High |
-| Implementation Phase | Phase 3 |
+| API Name | API Integration |
+| Type | POST |
+| Endpoint | /api/data/connect |
+| Category | Data Input & Intelligence |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-API integration enables seamless data flow from external systems including ERP platforms, logistics providers, and supplier portals. Provides real-time carbon tracking.
+Integrate with external systems via API. API integration enables seamless data flow from external systems.
 
 ---
 

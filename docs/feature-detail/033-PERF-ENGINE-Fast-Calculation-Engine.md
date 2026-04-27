@@ -1,20 +1,21 @@
 # PERF-ENGINE: Fast Calculation Engine
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | PERF-ENGINE |
-| Feature Name | Fast Calculation Engine |
+| API Name | Fast Calculation Engine |
+| Type | POST |
+| Endpoint | /api/calculate/fast |
 | Category | Performance & Tech |
-| Priority | Critical |
-| Implementation Phase | Phase 2 |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-High-performance calculation processing for emissions. Optimized algorithms to handle large datasets with fast processing times.
+High-performance calculation processing. Optimized algorithms to handle large datasets.
 
 ---
 

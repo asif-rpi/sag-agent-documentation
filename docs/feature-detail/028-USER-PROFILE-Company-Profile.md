@@ -1,20 +1,21 @@
 # USER-PROFILE: Company Profile
 
-## Feature Basic Information
+## API Basic Information
 
 | Item | Content |
 |------|---------|
 | Unique ID | USER-PROFILE |
-| Feature Name | Company Profile |
-| Category | User Management & Security |
-| Priority | High |
-| Implementation Phase | Phase 2 |
+| API Name | Company Profile |
+| Type | GET |
+| Endpoint | /api/company/profile |
+| Category | User & Company Management |
+| Status | Planned |
 
 ---
 
-## Purpose
+## Summary
 
-Manage company information and profiles for emission reporting and compliance.
+Manage company information and profiles. Retrieve company settings and details.
 
 ---
 
